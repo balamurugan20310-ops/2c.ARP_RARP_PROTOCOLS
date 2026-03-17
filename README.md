@@ -17,7 +17,7 @@ stored.
 5. Map the IP address with its MAC address and return the MAC address to client.
 P
 ## PROGRAM - ARP
-Client Side
+Server Side
 ```py
 import socket
 s = socket.socket()
@@ -43,7 +43,7 @@ c.close()
 print("Connection closed.")
 ```
 
-Server Side
+Client Side
 ```py
 import socket
 s = socket.socket()
@@ -63,7 +63,7 @@ print("Connection closed.")
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b767ab40-501a-4547-8843-1e543331e115" />
 
 ## PROGRAM - RARP
-Client Side
+Server Side
 ```py
 import socket
 s = socket.socket()
@@ -90,7 +90,7 @@ c.close()
 print("Connection closed.")
 
 ```
-Server Side
+Client Side
 ```py
 import socket
 s = socket.socket()
